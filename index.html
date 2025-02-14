@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venu H K - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f0f5ff;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #002855, #00509e);
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            animation: fadeIn 2s;
+        }
+        section {
+            padding: 20px;
+            animation: slideUp 1.5s ease-out;
+        }
+        .skills, .certifications {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .skill, .cert {
+            background: #0073e6;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: transform 0.3s, background 0.3s;
+        }
+        .skill:hover, .cert:hover {
+            transform: scale(1.1);
+            background: #004c99;
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #ffffff;
+            color: #333;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            width: 300px;
+            border-top: 5px solid #00509e;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .contact, .testimonials {
+            padding: 20px;
+            background: #d9e2f3;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .resume {
+            padding: 20px;
+            background: #f4f7fc;
+            border-radius: 8px;
+        }
+        .btn {
+            background: #00509e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #003366;
+        }
+        footer {
+            background: linear-gradient(to right, #002855, #00509e);
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Venu H K - DevOps Engineer
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I'm Venu H K, a passionate DevOps Engineer with expertise in cloud technologies and automation.</p>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">AWS</div>
+            <div class="skill">Jenkins</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">GitLab</div>
+            <div class="skill">JFrog</div>
+            <div class="skill">Docker</div>
+            <div class="skill">SonarQube</div>
+        </div>
+    </section>
+    <section>
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <div class="cert">AWS Certified</div>
+            <div class="cert">GitLab Certified</div>
+            <div class="cert">GitHub Certified</div>
+        </div>
+    </section>
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Unauthorized Human Detection</h3>
+                <p>A surveillance system that detects unauthorized persons in video feeds using AI.</p>
+            </div>
+            <div class="card">
+                <h3>Hotstar Clone</h3>
+                <p>A fully responsive web application that mimics the functionality of Hotstar.</p>
+            </div>
+            <div class="card">
+                <h3>Navkis College Website</h3>
+                <p>A website developed for Navkis College, enhancing its online presence and functionality.</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <p>"Venu is an exceptional DevOps engineer with great problem-solving skills!" - Mentor</p>
+        <p>"A dedicated and skilled professional in cloud automation." - Colleague</p>
+    </section>
+    <section class="resume">
+        <h2>Resume</h2>
+        <a class="btn" href="#">Download My Resume</a>
+    </section>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: venuhkhsn@gmail.com</p>
+        <p>LinkedIn: <a href="#" class="btn">Visit My LinkedIn</a></p>
+    </section>
+    <footer>
+        &copy; 2025 Venu H K | DevOps Engineer
+    </footer>
+</body>
+</html>
