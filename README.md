@@ -1,2 +1,2 @@
 # Portfolio-CI-CD
-This is a portfolio website repo
+This is a portfolio website repository
